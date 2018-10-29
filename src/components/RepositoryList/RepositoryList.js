@@ -19,7 +19,7 @@ class RepositoryList extends React.Component {
     queried: PropTypes.bool.isRequired,
     search: PropTypes.string.isRequired,
   }
-  renderMessage(){
+  renderMessage = () => {
     let text = "";
     let l = this.props.repositories.length;
 
